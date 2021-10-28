@@ -24,7 +24,7 @@ TEST_CASE("STD 2: Modifying Additional Values" ) {
 
     REQUIRE(reader.getCount() == 0);
     reader.increase(1);
-    reader.increase(1);
+    reader.increase(2);
 
     CHECK(reader.getCount() == 3  );
     reader.resetCounter();
